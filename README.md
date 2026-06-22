@@ -47,12 +47,16 @@ Technologies Used
 
 Project Architecture
 
-'''text
----
+## Project Architecture
+
+```text
 ECommerceAnalyticsProject/
 │
 ├── data/
-│   ├── OnlineRetail.csv
+│   ├── raw/
+│   ├── processed/
+│   └── OnlineRetail.csv
+│
 ├── src/
 │   ├── data_loader/
 │   │   └── data_loader.py
@@ -80,12 +84,12 @@ ECommerceAnalyticsProject/
 │   │
 │   └── kpi_dashboard/
 │       └── kpi_dashboard.py
+│
 ├── config.py
 ├── main.py
 ├── requirements.txt
 └── README.md
-
-'''
+```
 ---
 
 Analysis Performed
