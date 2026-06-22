@@ -47,7 +47,8 @@ Technologies Used
 
 Project Architecture
 
-'''
+'''text
+---
 ECommerceAnalyticsProject/
 │
 ├── data/
