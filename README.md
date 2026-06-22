@@ -47,7 +47,7 @@ Technologies Used
 
 Project Architecture
 
-
+'''
 ECommerceAnalyticsProject/
 │
 ├── data/
@@ -84,7 +84,7 @@ ECommerceAnalyticsProject/
 ├── requirements.txt
 └── README.md
 
-
+'''
 ---
 
 Analysis Performed
