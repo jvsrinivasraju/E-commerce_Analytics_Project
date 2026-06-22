@@ -51,9 +51,34 @@ Project Architecture
 ECommerceAnalyticsProject/
 │
 ├── data/
+│   ├── OnlineRetail.csv
 ├── src/
-|       |
-|       --cohort_analysis
+│   ├── data_loader/
+│   │   └── data_loader.py
+│   │
+│   ├── data_inspector/
+│   │   └── data_inspector.py
+│   │
+│   ├── data_cleaning/
+│   │   └── data_cleaning.py
+│   │
+│   ├── data_quality/
+│   │   └── data_quality.py
+│   │
+│   ├── eda/
+│   │   └── eda.py
+│   │
+│   ├── feature_engineering/
+│   │   └── feature_engineering.py
+│   │
+│   ├── cohort_analysis/
+│   │   └── cohort_analysis.py
+│   │
+│   ├── rfm_analysis/
+│   │   └── rfm_analysis.py
+│   │
+│   └── kpi_dashboard/
+│       └── kpi_dashboard.py
 ├── config.py
 ├── main.py
 ├── requirements.txt
